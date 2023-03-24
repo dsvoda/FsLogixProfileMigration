@@ -1,3 +1,6 @@
+# Set location to frx directory
+Set-Location "C:\Program Files\FSLogix\apps"
+
 # Read the migration commands from the output file
 $commands = Get-Content "c:\temp\migration_commands.txt"
 
